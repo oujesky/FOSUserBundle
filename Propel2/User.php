@@ -48,7 +48,7 @@ class User extends BaseUser implements UserInterface, GroupableInterface
                 $this->locked,
                 $this->credentials_expired,
                 $this->enabled,
-                $this->_new,
+                $this->new,
             )
         );
     }
@@ -73,7 +73,7 @@ class User extends BaseUser implements UserInterface, GroupableInterface
             $this->locked,
             $this->credentials_expired,
             $this->enabled,
-            $this->_new
+            $this->new
         ) = $data;
     }
 
